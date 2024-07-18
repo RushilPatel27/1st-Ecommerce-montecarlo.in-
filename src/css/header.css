@@ -1,0 +1,85 @@
+
+/* Top Header */
+
+ul.icon-flex {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul.icon-flex li {
+    padding: 10px;
+}
+
+.icon {
+    display: block;
+    vertical-align: middle;
+    background: none;
+    pointer-events: none;
+    overflow: visible;
+}
+
+ul.icon-flex li:not(:first-child) {
+    margin-left: 10px;
+}
+
+ul.icon-flex li .icon-title {
+    color: #696969;
+}
+
+.icon-img {
+   width: 20px;
+}
+
+/* Menu Part */
+
+.navbar-part {
+    display: block;
+    background: #25306e;
+    color: #ffffff;
+    transition: background .2s ease-in-out, color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+#myMenu {
+ text-align: center;
+}
+
+#myMenu .navbar-nav .nav-link {
+    color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+#myMenu .navbar-nav .nav-link:last-child {
+  margin-right: 0;
+}
+
+ul.second-link-bar {
+
+}
+
+ul.second-link-bar li a {
+color: #fff;
+position: relative;
+}
+
+ul.second-link-bar li img {
+    width: 35px;
+}
+
+.counter-cart {
+    position: absolute;
+    background: white;
+    color: #25306e;
+    margin-left: 0;
+    left: 14px !important;
+    top: -11px !important;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    line-height: 23px;
+}
