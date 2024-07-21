@@ -7,6 +7,8 @@ import BrowseSelection from './home/BrowseSelection'
 import VideoHome from './home/VideoHome'
 import ShopTrends from './home/ShopTrends'
 import Instagram from '../component/Instagram'
+import About from '../component/About'
+import Footer from '../component/Footer'
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <VideoHome />
       <ShopTrends />
       <Instagram />
+      <About />
+      <Footer />
     </>
   )
 }

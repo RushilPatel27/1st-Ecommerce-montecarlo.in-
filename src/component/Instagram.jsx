@@ -97,7 +97,7 @@ export default function Instagram() {
       };
   return (
     <>
-      <section id="insta-feed" className='py-5'>
+      <section id="insta-feed" className='pb-5'>
         <Container fluid className="px-xl-4">
          
         <div className="custom_img">
